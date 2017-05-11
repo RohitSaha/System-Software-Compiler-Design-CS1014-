@@ -1,0 +1,13 @@
+Enter production rule : E=E+T|T
+Continue?y/n : y
+Enter production rule : T=T*F|F
+Continue?y/n : y
+Enter production rule : F=(E)|i
+Continue?y/n : n
+{'E': ['E+T', 'T'], 'T': ['T*F', 'F'], 'F': ['(E)', 'i']} ['E', 'T', 'F']
+Updated rules after eliminating left recursion  : 
+E = TE'
+T = FT'
+F = ['(E)', 'i']
+E' = +TE'|q
+T' = *FT'|q
