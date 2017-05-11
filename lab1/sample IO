@@ -1,0 +1,21 @@
+1. Append word  2. Replace word  3. Print
+Enter choice1
+Enter word to be appendedcollege
+continue?y/ny
+1. Append word  2. Replace word  3. Print
+Enter choice3
+Contents of the file : 
+
+My good name is Rohit Saha. I am a student at SRM University.I belong to CSE department.hellocompiler design labhellocollege
+continue?y/ny
+1. Append word  2. Replace word  3. Print
+Enter choice2
+Enter word to be replacedUniversity
+Enter word to be insertedcollege
+continue?y/ny
+1. Append word  2. Replace word  3. Print
+Enter choice3
+Contents of the file : 
+
+My good name is Rohit Saha. I am a student at SRM college.I belong to CSE department.hellocompiler design labhellocollege
+continue?y/nn
