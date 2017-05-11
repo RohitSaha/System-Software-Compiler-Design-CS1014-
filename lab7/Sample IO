@@ -1,0 +1,8 @@
+Enter production rule : A=aB|bB
+Continue?y/n : y
+Enter production rule : B=cD|dD
+Continue?y/n : y
+Enter production rule : C=cd|D
+Continue?y/n : n
+After left factoring : 
+{'A': "A'B", 'B': "B'D", 'C': ['cd', 'D'], "A'": ['a', 'b'], "B'": ['c', 'd']}
