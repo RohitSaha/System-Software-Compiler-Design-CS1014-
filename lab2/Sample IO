@@ -1,0 +1,4 @@
+enter expression(a+b)/(c+5)*d
+Constants :  ['5']
+Variables :  ['a', 'b', 'c', 'd']
+Operators :  ['+', '/', '+', '*']
