@@ -1,4 +1,4 @@
-# System-Software-Compiler-Design-CS1014-
+# System Software & Compiler Design CS1036
 Programs for Compiler Design Laboratory
 
 ## Points to remember :
