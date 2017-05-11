@@ -1,0 +1,21 @@
+Enter state : a
+Enter inputs of a : 0,1
+{'a': {'0': [], '1': []}}
+Enter next state of a when domain is 0 : a,b
+Enter next state of a when domain is 1 : b
+Continue?y/ : ny
+Enter state : b
+Enter inputs of b : 0,1
+{'a': {'0': ['a', 'b'], '1': ['b']}, 'b': {'0': [], '1': []}}
+Enter next state of b when domain is 0 : b
+Enter next state of b when domain is 1 : c
+Continue?y/n : y
+Enter state : c
+Enter inputs of c : 0,1
+{'a': {'0': ['a', 'b'], '1': ['b']}, 'b': {'0': ['b'], '1': ['c']}, 'c': {'0': [], '1': []}}
+Enter next state of c when domain is 0 : b
+Enter next state of c when domain is 1 : c
+Continue?y/n : n
+Enter start state : a
+dfa final : {'a': {'0': ['ba'], '1': ['b']}, 'ba': {'0': ['ba'], '1': ['bc']}, 'b': {'0': ['b'], '1': ['c']}, 'bc': {'0': ['b'], '1': ['c']}, 'c': {'0': ['b'], '1': ['c']}}
+
