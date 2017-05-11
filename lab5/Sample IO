@@ -1,0 +1,30 @@
+Enter production rule : E=+TE'
+Continue?y/n : y
+Enter production rule : E'=+TE'|q
+Continue?y/n : y
+Enter production rule : T=FT'
+Continue?y/n : y
+Enter production rule : T=*FT'|q
+Continue?y/n : y
+Enter production rule : F=(E)|i
+Continue?y/n : n
+["+TE'"]
+["+TE'", 'q']
+["*FT'", 'q']
+['(E)', 'i']
+Rules  {'E': ["+TE'"], "E'": ["+TE'", 'q'], 'T': ["*FT'", 'q'], 'F': ['(E)', 'i']}
+Terminals  ['i', '*', '(', '+', ')', 'q']
+Non-terminals  ['E', "E'", 'T', 'T', 'F']
+FIRST : 
+{'E': ['+'], "E'": ['+', 'q'], 'T': ['*', 'q'], 'F': ['(', 'i']}
+Enter start state : E
+Exception thrown
+Exception thrown
+Exception thrown
+Exception thrown
+Exception thrown
+Exception thrown
+Exception thrown
+Exception thrown
+FOLLOW : 
+{'E': {'$', ')'}, "E'": set(), 'T': [['+']], 'F': [['*', 'q']]}
